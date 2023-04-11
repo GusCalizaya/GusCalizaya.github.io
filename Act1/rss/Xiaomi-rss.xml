@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Tecnology</title>
+		<link>https://www.mi.com/es/product/xiaomi-13-pro/</link>
+		<description>Informacion sobre tistintos moviles</description>
+		<language>en-us</language>
+		<copyright><![CDATA[ Gustavo - C.G ]]></copyright>
+		<image>
+			<url>https://cdn.icon-icons.com/icons2/2429/PNG/512/rss_logo_icon_147244.png</url>
+			<title>Tecnology</title>
+			<link>https://www.mi.com/es/product/xiaomi-13-pro/</link>
+		</image>
+		
+		<item>
+			<title>Xiaomi Adictos</title>
+			<link>https://www.xiaomiadictos.com/el-xiaomi-13-pro-de-casi-1-400-euros-y-su-camara-quedan-en-el-puesto-16-de-dxomark/</link>
+			<pubDate>Tue, 11 Apr 2023 12:00:00 GMT</pubDate>
+			<author>gcalizaya91@gmail.com(Gustavo)</author>
+			<category>SEO</category>
+			<description><![CDATA[ 
+			<h1>Xiaomi Adictos</h1>
+			Si deseas saber mas respecto a este movil puedes hacerlo en el siguiente enlace
+			]]></description>
+		</item>
+		<item>
+			<title>Mundo Xiaomi</title>
+			<link>https://www.mundoxiaomi.com/noticias/nuevos-xiaomi-13-pro-xiaomi-13-caracteristicas-precio-ficha-tecnica-1</link>
+			<pubDate>Tue, 11 Apr 2023 12:00:00 GMT</pubDate>
+			<author>gcalizaya91@gmail.com(Gustavo)</author>
+			<category>SEO</category>
+			<description><![CDATA[ 
+			<h1>Mundo Xiaomi</h1>
+			Aqui tienes otro punto de vista sobre el movil y sus caracteristicas
+			]]></description>
+		</item>
+	</channel>
+</rss>
