@@ -1,13 +1,13 @@
-*{
+* {
     box-sizing: border-box;
-    
+
 }
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     background-image: url(../html/img/Tecnología.gif);
-    
+
 }
 
 header,
@@ -16,19 +16,51 @@ footer {
     padding: 1em;
 }
 
-footer{
+footer {
     text-align: center;
     color: white;
 
 }
 
-header{
+header {
     text-align: center;
-    color:rgb(169, 204, 248)
+    color: rgb(169, 204, 248)
 }
 
-h1{
-    margin: 0;
+h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+    display: inline-block;
+    
+    background-image: linear-gradient(to top, #24099e, #500387, #9d08ae, #002d8f,#2c04f3);
+    background-size: 400% 400%;
+    animation: neon 4s linear infinite;
+    border-radius: 20px;}
+
+
+/* Animación para el fondo */
+@keyframes neon {
+    0% {
+        background-position: 0% 60%;
+    }
+
+    25% {
+        background-position: 60% 100%;
+    }
+
+    50% {
+        background-position: 100% 60%;
+    }
+
+    75% {
+        background-position: 60% 0%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 h2{
@@ -36,12 +68,12 @@ h2{
 }
 
 
-.uno{
+.uno {
     max-width: 60%;
     height: auto;
 }
 
-.dos{
+.dos {
     max-width: 34%;
     height: auto;
     padding-top: 6%;
@@ -49,7 +81,7 @@ h2{
 
 
 
-.tres{
+.tres {
     max-width: 40%;
     height: auto;
     padding-top: 3%;
@@ -84,16 +116,15 @@ h2{
     margin-bottom: 1em;
 }
 
-ul li{
+ul li {
     color: white;
 }
 
-.cuatro{
+.cuatro {
     max-width: 10%;
     height: auto;
 }
 
-p{
+p {
     color: white;
 }
-

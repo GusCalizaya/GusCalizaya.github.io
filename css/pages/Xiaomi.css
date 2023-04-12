@@ -2,8 +2,40 @@ body{
     background-image: url(../../html/img/tecnologia.webp);
 }
 
-h2{
+h2 {
     color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+    display: block;
+
+    background-image: linear-gradient(to top, #24099e, #500387, #9d08ae, #002d8f, #2c04f3);
+    background-size: 400% 400%;
+    animation: neon 4s linear infinite;
+    border-radius: 20px;
+}
+
+@keyframes neon {
+    0% {
+        background-position: 0% 60%;
+    }
+
+    25% {
+        background-position: 60% 100%;
+    }
+
+    50% {
+        background-position: 100% 60%;
+    }
+
+    75% {
+        background-position: 60% 0%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 img{
