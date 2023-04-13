@@ -28,19 +28,19 @@ header {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 41px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 17px;
     position: relative;
     display: inline-block;
-    
-    background-image: linear-gradient(to top, #24099e, #500387, #9d08ae, #002d8f,#2c04f3);
+    background-image: linear-gradient(to top, #24099e, #500387, #9d08ae, #002d8f, #2c04f3);
     background-size: 400% 400%;
     animation: neon 4s linear infinite;
-    border-radius: 20px;}
+    border-radius: 20px;
+}
 
 
-/* Animación para el fondo */
+
 @keyframes neon {
     0% {
         background-position: 0% 60%;
@@ -63,7 +63,7 @@ h1 {
     }
 }
 
-h2{
+h2 {
     color: white;
 }
 
@@ -128,3 +128,31 @@ ul li {
 p {
     color: white;
 }
+
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.social-buttons {
+    margin-top: 20px;
+}
+
+.social-buttons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-buttons img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    
+}
+
+.social-buttons img:hover {
+    transform: scale(2.1);
+}
+
